@@ -11,7 +11,7 @@ end
   end
   
   post '/checkout' do
-    session["item"] = "Victoria"
+    session["item"] = "socks"
     @session = session
     
     erb :checkout
